@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "welcome"
+echo "welcome to git"
+df -h
