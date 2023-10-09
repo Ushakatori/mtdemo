@@ -2,3 +2,4 @@
 echo "welcome to github"
 df -h
 pwd
+ls
