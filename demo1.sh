@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "welcome to github"
+echo "welcome"
 df -h
 pwd
 ls
