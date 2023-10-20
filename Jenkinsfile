@@ -3,7 +3,7 @@ node {
     checkout scm
   }
   stage('SonarQube Analysis') {
-    def scannerHome = tool 'SonarScanner1';
+    def scannerHome = tool 'SonarQubeScanner';
     withSonarQubeEnv() {
      sh "mvn clean verify sonar:sonar"
     }
