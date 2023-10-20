@@ -1,6 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/3.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/3.6.2 http://maven.apache.org/maven-v3_6_2.xsd">
+  <modelVersion>3.6.2</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>my-maven-project</artifactId>
   <packaging>jar</packaging>
@@ -14,7 +14,7 @@
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.6.1.1688</version> <!-- Replace with the latest version -->
         </plugin>
-         <plugin>
+        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Use the appropriate version -->
@@ -22,8 +22,8 @@
                 <source>1.8</source>
                 <target>1.8</target>
             </configuration>
-         </plugin>
-        </plugins>
+        </plugin>
+    </plugins>
   </build>
   <properties>
     <sonar.host.url>http://10.10.30.206:9000</sonar.host.url>
