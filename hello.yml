@@ -5,5 +5,5 @@
   tasks:
     - name: Display a message
       debug:
-        msg: "Hello, localhost!"
+        msg: "Hello, Jenkins!"
 
